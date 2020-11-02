@@ -1,0 +1,14 @@
+table, th, td {
+    color: #2d3436;
+    border: solid 2px #636e72;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #dbe2ef;
+}
+
+th {
+    background-color: #3f72af;
+    color: #dbe2ef;
+}
