@@ -24,9 +24,10 @@ var getBio = function(employee){
     return employee.bio;
 }
 
-var successFun = function(empList)
+var successFun = function(employee)
 {
-    var employee = empList.slice(0,2);
+    
+    console.log(employee);
     
     var employeeDiv = d3.select("body")
         .selectAll("div")
@@ -39,7 +40,7 @@ var successFun = function(empList)
             .classed("general", true);
         
     generalDiv.append("span")
-        .classed("eName")
+        .classed("eName", true)
         .text(getName);
     
     generalDiv.append("img")

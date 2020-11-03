@@ -32,9 +32,8 @@ var getBio = function(employee){
     return employee.bio;
 }
 
-var successFun = function(empList)
+var successFun = function(employee)
 {
-    var employee = empList.slice(0,2);
     
     var rows = d3.select("tbody")
         .selectAll("tr")
